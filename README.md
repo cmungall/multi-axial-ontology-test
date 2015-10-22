@@ -28,14 +28,22 @@ Two possible approaches:
 1 is probably easiest and most robust to incomplete
 axiomatization. See the Makefile for how this is done using owltools.
 See also issue https://github.com/cmungall/multi-axial-ontology-test/issues/1
+And comments further down
 
 ## Dumb Lattice
+
+This shows what the entire ontology looks like using standard graphviz paradigm
 
 Lattice with dumb repetitive information:
 
 ![img](eq-reasoned.png)
 
-All paths through lattice from a class:
+## Multiple Paths
+
+A standard technique is to show a hierarchical view starting at a
+focus node, ie denormalized tree view. This becomes rapidly worse as
+latticeyness increases.
+
 
 ```
  / http://example.org/test/Organ-morphology ! Organ morphology
@@ -80,3 +88,43 @@ All paths through lattice from a class:
 This repo currently only has a single example, a cross-product of two trees
 
 I may later rearrange into subdirs of increasing complexity
+
+## Proposed UI Algorithm
+
+### Pre-processing
+
+Annotate each edge with information about what kind of classification
+it is. E.g. "anatomical" vs "quality".
+
+See the Makefile for examples of how to do this with owltools. See
+eq-annotated.owl for an example.
+
+Note in our fake example, it's relatively regular
+
+    LargeBone SubClassOf LargeOrgan ## ANATOMICAL
+    LargeBone SubClassOf BoneMorphology ## QUALITY
+
+In practice it may not be regular. There may be nodes in the
+cross-product missing. E.g.
+
+    LargeBone SubClassOf OrganMorphology ## ANATOMICAL, QUALITY
+
+In many cases there will be axiomatization lacking and the isa link
+will have been asserted by a human, without any 'why'
+
+In real cases we will also have a deep imports chain and explanations
+for links may be non-local. 
+
+### Rendering
+
+(draft)
+
+One approach would be simply to select an axis (eg ANATOMICAL) and
+only show those links. This works for a regular lattice derived from
+two strict trees. But not all ontologies will be regular this way.
+
+Thus it would be better to allow selection of 'profiles'.
+
+Other heuristics: if the path upwards cannot be continued using the
+profile, then continue on ALL for one hop.
+
