@@ -1,0 +1,35 @@
+pattern_name: test/entity_quality
+classes: []
+
+relations:
+  inheres in: inheres_in
+    
+vars: 
+  entity: "'Thing'"
+  quality: "'quality'"
+
+class_iri:
+  text: "%s-%s"
+  vars:
+    - entity
+    - quality
+
+name:
+  text: "%s %s"
+  vars: 
+    - entity
+    - quality
+    
+def: 
+  text: "Any %s that inheres in %s."
+  vars:
+    - quality
+    - entity
+    
+equivalentTo: 
+  text: "%s and 'inheres in' some %s"
+  vars:
+    - quality
+    - entity
+    
+

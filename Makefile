@@ -1,5 +1,5 @@
 
-all: eq-merged-reasoned.owl
+all: eq-reasoned.owl
 
 
 %.ids: %.obo
@@ -8,12 +8,8 @@ all: eq-merged-reasoned.owl
 eq.owl: quality.ids entity.ids
 	apply-pattern.py -b http://example.org/test/ -p eq-pattern.yaml -x $^ > $@
 
-eq-merged.owl: eq.owl quality.owl entity.owl
-	robot merge $(patsubst %, -i %,$^) -o $@
-
-%-reasoned.owl: %.owl
-	robot reason -i $< -r elk -o $@
-
+eq-reasoned.owl: eq.owl quality.owl entity.owl
+	owltools $^  --add-imports-from-supports --assert-inferred-subclass-axioms --remove-imports-declarations -o $@
 
 %.obo: %.owl
 	owltools $< -o -f obo $@
