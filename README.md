@@ -26,6 +26,46 @@ Lattice with dumb repetitive information:
 
 ![img](eq-reasoned.png)
 
+All paths through lattice from a class:
+
+```
+ / http://example.org/test/Organ-morphology ! Organ morphology
+  is_a http://example.org/test/Bone-morphology ! Bone morphology
+   is_a http://example.org/test/Bone-size ! Bone size
+    is_a http://example.org/test/Bone-decreasedSize ! Bone decreasedSize
+     is_a http://example.org/test/LimbBone-decreasedSize ! LimbBone decreasedSize
+      is_a http://example.org/test/HindLimbBone-decreasedSize ! HindLimbBone decreasedSize *** 
+    is_a http://example.org/test/LimbBone-size ! LimbBone size
+     is_a http://example.org/test/HindLimbBone-size ! HindLimbBone size
+      is_a http://example.org/test/HindLimbBone-decreasedSize ! HindLimbBone decreasedSize *** 
+     is_a http://example.org/test/LimbBone-decreasedSize ! LimbBone decreasedSize
+      is_a http://example.org/test/HindLimbBone-decreasedSize ! HindLimbBone decreasedSize *** 
+   is_a http://example.org/test/LimbBone-morphology ! LimbBone morphology
+    is_a http://example.org/test/HindLimbBone-morphology ! HindLimbBone morphology
+     is_a http://example.org/test/HindLimbBone-size ! HindLimbBone size
+      is_a http://example.org/test/HindLimbBone-decreasedSize ! HindLimbBone decreasedSize *** 
+    is_a http://example.org/test/LimbBone-size ! LimbBone size
+     is_a http://example.org/test/HindLimbBone-size ! HindLimbBone size
+      is_a http://example.org/test/HindLimbBone-decreasedSize ! HindLimbBone decreasedSize *** 
+     is_a http://example.org/test/LimbBone-decreasedSize ! LimbBone decreasedSize
+      is_a http://example.org/test/HindLimbBone-decreasedSize ! HindLimbBone decreasedSize *** 
+  is_a http://example.org/test/Organ-size ! Organ size
+   is_a http://example.org/test/Bone-size ! Bone size
+    is_a http://example.org/test/Bone-decreasedSize ! Bone decreasedSize
+     is_a http://example.org/test/LimbBone-decreasedSize ! LimbBone decreasedSize
+      is_a http://example.org/test/HindLimbBone-decreasedSize ! HindLimbBone decreasedSize *** 
+    is_a http://example.org/test/LimbBone-size ! LimbBone size
+     is_a http://example.org/test/HindLimbBone-size ! HindLimbBone size
+      is_a http://example.org/test/HindLimbBone-decreasedSize ! HindLimbBone decreasedSize *** 
+     is_a http://example.org/test/LimbBone-decreasedSize ! LimbBone decreasedSize
+      is_a http://example.org/test/HindLimbBone-decreasedSize ! HindLimbBone decreasedSize *** 
+   is_a http://example.org/test/Organ-decreasedSize ! Organ decreasedSize
+    is_a http://example.org/test/Bone-decreasedSize ! Bone decreasedSize
+     is_a http://example.org/test/LimbBone-decreasedSize ! LimbBone decreasedSize
+      is_a http://example.org/test/HindLimbBone-decreasedSize ! HindLimbBone decreasedSize *** 
+```
+
+
 ## Notes
 
 This repo currently only has a single example, a cross-product of two trees
