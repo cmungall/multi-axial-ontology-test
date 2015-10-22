@@ -1,0 +1,691 @@
+Prefix: : <http://example.org/test/>
+Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
+Prefix: DOSDP: <http://geneontology.org/foo/>
+
+AnnotationProperty: IAO:0000115
+AnnotationProperty: test/entity_quality/quality
+AnnotationProperty: test/entity_quality/entity
+AnnotationProperty: DOSDP:applies-pattern
+Ontology: <http://example.org/test/auto>
+ObjectProperty: inheres_in ## inheres in
+## Auto-generated classes
+
+Class: decreasedSize ## 
+Class: BCell ## 
+## {"quality": "decreasedSize", "entity": "BCell"}
+Class: BCell-decreasedSize
+ Annotations: rdfs:label "BCell decreasedSize"
+ Annotations: IAO:0000115 "Any decreasedSize that inheres in BCell."
+ EquivalentTo: decreasedSize and inheres_in some BCell ## decreasedSize and 'inheres in' some BCell
+
+Class: decreasedSize ## 
+Class: Bone ## 
+## {"quality": "decreasedSize", "entity": "Bone"}
+Class: Bone-decreasedSize
+ Annotations: rdfs:label "Bone decreasedSize"
+ Annotations: IAO:0000115 "Any decreasedSize that inheres in Bone."
+ EquivalentTo: decreasedSize and inheres_in some Bone ## decreasedSize and 'inheres in' some Bone
+
+Class: decreasedSize ## 
+Class: Brain ## 
+## {"quality": "decreasedSize", "entity": "Brain"}
+Class: Brain-decreasedSize
+ Annotations: rdfs:label "Brain decreasedSize"
+ Annotations: IAO:0000115 "Any decreasedSize that inheres in Brain."
+ EquivalentTo: decreasedSize and inheres_in some Brain ## decreasedSize and 'inheres in' some Brain
+
+Class: decreasedSize ## 
+Class: BrainNeuron ## 
+## {"quality": "decreasedSize", "entity": "BrainNeuron"}
+Class: BrainNeuron-decreasedSize
+ Annotations: rdfs:label "BrainNeuron decreasedSize"
+ Annotations: IAO:0000115 "Any decreasedSize that inheres in BrainNeuron."
+ EquivalentTo: decreasedSize and inheres_in some BrainNeuron ## decreasedSize and 'inheres in' some BrainNeuron
+
+Class: decreasedSize ## 
+Class: CNSNeuron ## 
+## {"quality": "decreasedSize", "entity": "CNSNeuron"}
+Class: CNSNeuron-decreasedSize
+ Annotations: rdfs:label "CNSNeuron decreasedSize"
+ Annotations: IAO:0000115 "Any decreasedSize that inheres in CNSNeuron."
+ EquivalentTo: decreasedSize and inheres_in some CNSNeuron ## decreasedSize and 'inheres in' some CNSNeuron
+
+Class: decreasedSize ## 
+Class: Cell ## 
+## {"quality": "decreasedSize", "entity": "Cell"}
+Class: Cell-decreasedSize
+ Annotations: rdfs:label "Cell decreasedSize"
+ Annotations: IAO:0000115 "Any decreasedSize that inheres in Cell."
+ EquivalentTo: decreasedSize and inheres_in some Cell ## decreasedSize and 'inheres in' some Cell
+
+Class: decreasedSize ## 
+Class: ForeLimbBone ## 
+## {"quality": "decreasedSize", "entity": "ForeLimbBone"}
+Class: ForeLimbBone-decreasedSize
+ Annotations: rdfs:label "ForeLimbBone decreasedSize"
+ Annotations: IAO:0000115 "Any decreasedSize that inheres in ForeLimbBone."
+ EquivalentTo: decreasedSize and inheres_in some ForeLimbBone ## decreasedSize and 'inheres in' some ForeLimbBone
+
+Class: decreasedSize ## 
+Class: HindLimbBone ## 
+## {"quality": "decreasedSize", "entity": "HindLimbBone"}
+Class: HindLimbBone-decreasedSize
+ Annotations: rdfs:label "HindLimbBone decreasedSize"
+ Annotations: IAO:0000115 "Any decreasedSize that inheres in HindLimbBone."
+ EquivalentTo: decreasedSize and inheres_in some HindLimbBone ## decreasedSize and 'inheres in' some HindLimbBone
+
+Class: decreasedSize ## 
+Class: ImmuneCell ## 
+## {"quality": "decreasedSize", "entity": "ImmuneCell"}
+Class: ImmuneCell-decreasedSize
+ Annotations: rdfs:label "ImmuneCell decreasedSize"
+ Annotations: IAO:0000115 "Any decreasedSize that inheres in ImmuneCell."
+ EquivalentTo: decreasedSize and inheres_in some ImmuneCell ## decreasedSize and 'inheres in' some ImmuneCell
+
+Class: decreasedSize ## 
+Class: LeftLung ## 
+## {"quality": "decreasedSize", "entity": "LeftLung"}
+Class: LeftLung-decreasedSize
+ Annotations: rdfs:label "LeftLung decreasedSize"
+ Annotations: IAO:0000115 "Any decreasedSize that inheres in LeftLung."
+ EquivalentTo: decreasedSize and inheres_in some LeftLung ## decreasedSize and 'inheres in' some LeftLung
+
+Class: decreasedSize ## 
+Class: LimbBone ## 
+## {"quality": "decreasedSize", "entity": "LimbBone"}
+Class: LimbBone-decreasedSize
+ Annotations: rdfs:label "LimbBone decreasedSize"
+ Annotations: IAO:0000115 "Any decreasedSize that inheres in LimbBone."
+ EquivalentTo: decreasedSize and inheres_in some LimbBone ## decreasedSize and 'inheres in' some LimbBone
+
+Class: decreasedSize ## 
+Class: Lung ## 
+## {"quality": "decreasedSize", "entity": "Lung"}
+Class: Lung-decreasedSize
+ Annotations: rdfs:label "Lung decreasedSize"
+ Annotations: IAO:0000115 "Any decreasedSize that inheres in Lung."
+ EquivalentTo: decreasedSize and inheres_in some Lung ## decreasedSize and 'inheres in' some Lung
+
+Class: decreasedSize ## 
+Class: Neuron ## 
+## {"quality": "decreasedSize", "entity": "Neuron"}
+Class: Neuron-decreasedSize
+ Annotations: rdfs:label "Neuron decreasedSize"
+ Annotations: IAO:0000115 "Any decreasedSize that inheres in Neuron."
+ EquivalentTo: decreasedSize and inheres_in some Neuron ## decreasedSize and 'inheres in' some Neuron
+
+Class: decreasedSize ## 
+Class: Organ ## 
+## {"quality": "decreasedSize", "entity": "Organ"}
+Class: Organ-decreasedSize
+ Annotations: rdfs:label "Organ decreasedSize"
+ Annotations: IAO:0000115 "Any decreasedSize that inheres in Organ."
+ EquivalentTo: decreasedSize and inheres_in some Organ ## decreasedSize and 'inheres in' some Organ
+
+Class: decreasedSize ## 
+Class: RightLung ## 
+## {"quality": "decreasedSize", "entity": "RightLung"}
+Class: RightLung-decreasedSize
+ Annotations: rdfs:label "RightLung decreasedSize"
+ Annotations: IAO:0000115 "Any decreasedSize that inheres in RightLung."
+ EquivalentTo: decreasedSize and inheres_in some RightLung ## decreasedSize and 'inheres in' some RightLung
+
+Class: decreasedSize ## 
+Class: SkullBone ## 
+## {"quality": "decreasedSize", "entity": "SkullBone"}
+Class: SkullBone-decreasedSize
+ Annotations: rdfs:label "SkullBone decreasedSize"
+ Annotations: IAO:0000115 "Any decreasedSize that inheres in SkullBone."
+ EquivalentTo: decreasedSize and inheres_in some SkullBone ## decreasedSize and 'inheres in' some SkullBone
+
+Class: decreasedSize ## 
+Class: TCell ## 
+## {"quality": "decreasedSize", "entity": "TCell"}
+Class: TCell-decreasedSize
+ Annotations: rdfs:label "TCell decreasedSize"
+ Annotations: IAO:0000115 "Any decreasedSize that inheres in TCell."
+ EquivalentTo: decreasedSize and inheres_in some TCell ## decreasedSize and 'inheres in' some TCell
+
+Class: increasedSize ## 
+Class: BCell ## 
+## {"quality": "increasedSize", "entity": "BCell"}
+Class: BCell-increasedSize
+ Annotations: rdfs:label "BCell increasedSize"
+ Annotations: IAO:0000115 "Any increasedSize that inheres in BCell."
+ EquivalentTo: increasedSize and inheres_in some BCell ## increasedSize and 'inheres in' some BCell
+
+Class: increasedSize ## 
+Class: Bone ## 
+## {"quality": "increasedSize", "entity": "Bone"}
+Class: Bone-increasedSize
+ Annotations: rdfs:label "Bone increasedSize"
+ Annotations: IAO:0000115 "Any increasedSize that inheres in Bone."
+ EquivalentTo: increasedSize and inheres_in some Bone ## increasedSize and 'inheres in' some Bone
+
+Class: increasedSize ## 
+Class: Brain ## 
+## {"quality": "increasedSize", "entity": "Brain"}
+Class: Brain-increasedSize
+ Annotations: rdfs:label "Brain increasedSize"
+ Annotations: IAO:0000115 "Any increasedSize that inheres in Brain."
+ EquivalentTo: increasedSize and inheres_in some Brain ## increasedSize and 'inheres in' some Brain
+
+Class: increasedSize ## 
+Class: BrainNeuron ## 
+## {"quality": "increasedSize", "entity": "BrainNeuron"}
+Class: BrainNeuron-increasedSize
+ Annotations: rdfs:label "BrainNeuron increasedSize"
+ Annotations: IAO:0000115 "Any increasedSize that inheres in BrainNeuron."
+ EquivalentTo: increasedSize and inheres_in some BrainNeuron ## increasedSize and 'inheres in' some BrainNeuron
+
+Class: increasedSize ## 
+Class: CNSNeuron ## 
+## {"quality": "increasedSize", "entity": "CNSNeuron"}
+Class: CNSNeuron-increasedSize
+ Annotations: rdfs:label "CNSNeuron increasedSize"
+ Annotations: IAO:0000115 "Any increasedSize that inheres in CNSNeuron."
+ EquivalentTo: increasedSize and inheres_in some CNSNeuron ## increasedSize and 'inheres in' some CNSNeuron
+
+Class: increasedSize ## 
+Class: Cell ## 
+## {"quality": "increasedSize", "entity": "Cell"}
+Class: Cell-increasedSize
+ Annotations: rdfs:label "Cell increasedSize"
+ Annotations: IAO:0000115 "Any increasedSize that inheres in Cell."
+ EquivalentTo: increasedSize and inheres_in some Cell ## increasedSize and 'inheres in' some Cell
+
+Class: increasedSize ## 
+Class: ForeLimbBone ## 
+## {"quality": "increasedSize", "entity": "ForeLimbBone"}
+Class: ForeLimbBone-increasedSize
+ Annotations: rdfs:label "ForeLimbBone increasedSize"
+ Annotations: IAO:0000115 "Any increasedSize that inheres in ForeLimbBone."
+ EquivalentTo: increasedSize and inheres_in some ForeLimbBone ## increasedSize and 'inheres in' some ForeLimbBone
+
+Class: increasedSize ## 
+Class: HindLimbBone ## 
+## {"quality": "increasedSize", "entity": "HindLimbBone"}
+Class: HindLimbBone-increasedSize
+ Annotations: rdfs:label "HindLimbBone increasedSize"
+ Annotations: IAO:0000115 "Any increasedSize that inheres in HindLimbBone."
+ EquivalentTo: increasedSize and inheres_in some HindLimbBone ## increasedSize and 'inheres in' some HindLimbBone
+
+Class: increasedSize ## 
+Class: ImmuneCell ## 
+## {"quality": "increasedSize", "entity": "ImmuneCell"}
+Class: ImmuneCell-increasedSize
+ Annotations: rdfs:label "ImmuneCell increasedSize"
+ Annotations: IAO:0000115 "Any increasedSize that inheres in ImmuneCell."
+ EquivalentTo: increasedSize and inheres_in some ImmuneCell ## increasedSize and 'inheres in' some ImmuneCell
+
+Class: increasedSize ## 
+Class: LeftLung ## 
+## {"quality": "increasedSize", "entity": "LeftLung"}
+Class: LeftLung-increasedSize
+ Annotations: rdfs:label "LeftLung increasedSize"
+ Annotations: IAO:0000115 "Any increasedSize that inheres in LeftLung."
+ EquivalentTo: increasedSize and inheres_in some LeftLung ## increasedSize and 'inheres in' some LeftLung
+
+Class: increasedSize ## 
+Class: LimbBone ## 
+## {"quality": "increasedSize", "entity": "LimbBone"}
+Class: LimbBone-increasedSize
+ Annotations: rdfs:label "LimbBone increasedSize"
+ Annotations: IAO:0000115 "Any increasedSize that inheres in LimbBone."
+ EquivalentTo: increasedSize and inheres_in some LimbBone ## increasedSize and 'inheres in' some LimbBone
+
+Class: increasedSize ## 
+Class: Lung ## 
+## {"quality": "increasedSize", "entity": "Lung"}
+Class: Lung-increasedSize
+ Annotations: rdfs:label "Lung increasedSize"
+ Annotations: IAO:0000115 "Any increasedSize that inheres in Lung."
+ EquivalentTo: increasedSize and inheres_in some Lung ## increasedSize and 'inheres in' some Lung
+
+Class: increasedSize ## 
+Class: Neuron ## 
+## {"quality": "increasedSize", "entity": "Neuron"}
+Class: Neuron-increasedSize
+ Annotations: rdfs:label "Neuron increasedSize"
+ Annotations: IAO:0000115 "Any increasedSize that inheres in Neuron."
+ EquivalentTo: increasedSize and inheres_in some Neuron ## increasedSize and 'inheres in' some Neuron
+
+Class: increasedSize ## 
+Class: Organ ## 
+## {"quality": "increasedSize", "entity": "Organ"}
+Class: Organ-increasedSize
+ Annotations: rdfs:label "Organ increasedSize"
+ Annotations: IAO:0000115 "Any increasedSize that inheres in Organ."
+ EquivalentTo: increasedSize and inheres_in some Organ ## increasedSize and 'inheres in' some Organ
+
+Class: increasedSize ## 
+Class: RightLung ## 
+## {"quality": "increasedSize", "entity": "RightLung"}
+Class: RightLung-increasedSize
+ Annotations: rdfs:label "RightLung increasedSize"
+ Annotations: IAO:0000115 "Any increasedSize that inheres in RightLung."
+ EquivalentTo: increasedSize and inheres_in some RightLung ## increasedSize and 'inheres in' some RightLung
+
+Class: increasedSize ## 
+Class: SkullBone ## 
+## {"quality": "increasedSize", "entity": "SkullBone"}
+Class: SkullBone-increasedSize
+ Annotations: rdfs:label "SkullBone increasedSize"
+ Annotations: IAO:0000115 "Any increasedSize that inheres in SkullBone."
+ EquivalentTo: increasedSize and inheres_in some SkullBone ## increasedSize and 'inheres in' some SkullBone
+
+Class: increasedSize ## 
+Class: TCell ## 
+## {"quality": "increasedSize", "entity": "TCell"}
+Class: TCell-increasedSize
+ Annotations: rdfs:label "TCell increasedSize"
+ Annotations: IAO:0000115 "Any increasedSize that inheres in TCell."
+ EquivalentTo: increasedSize and inheres_in some TCell ## increasedSize and 'inheres in' some TCell
+
+Class: morphology ## 
+Class: BCell ## 
+## {"quality": "morphology", "entity": "BCell"}
+Class: BCell-morphology
+ Annotations: rdfs:label "BCell morphology"
+ Annotations: IAO:0000115 "Any morphology that inheres in BCell."
+ EquivalentTo: morphology and inheres_in some BCell ## morphology and 'inheres in' some BCell
+
+Class: morphology ## 
+Class: Bone ## 
+## {"quality": "morphology", "entity": "Bone"}
+Class: Bone-morphology
+ Annotations: rdfs:label "Bone morphology"
+ Annotations: IAO:0000115 "Any morphology that inheres in Bone."
+ EquivalentTo: morphology and inheres_in some Bone ## morphology and 'inheres in' some Bone
+
+Class: morphology ## 
+Class: Brain ## 
+## {"quality": "morphology", "entity": "Brain"}
+Class: Brain-morphology
+ Annotations: rdfs:label "Brain morphology"
+ Annotations: IAO:0000115 "Any morphology that inheres in Brain."
+ EquivalentTo: morphology and inheres_in some Brain ## morphology and 'inheres in' some Brain
+
+Class: morphology ## 
+Class: BrainNeuron ## 
+## {"quality": "morphology", "entity": "BrainNeuron"}
+Class: BrainNeuron-morphology
+ Annotations: rdfs:label "BrainNeuron morphology"
+ Annotations: IAO:0000115 "Any morphology that inheres in BrainNeuron."
+ EquivalentTo: morphology and inheres_in some BrainNeuron ## morphology and 'inheres in' some BrainNeuron
+
+Class: morphology ## 
+Class: CNSNeuron ## 
+## {"quality": "morphology", "entity": "CNSNeuron"}
+Class: CNSNeuron-morphology
+ Annotations: rdfs:label "CNSNeuron morphology"
+ Annotations: IAO:0000115 "Any morphology that inheres in CNSNeuron."
+ EquivalentTo: morphology and inheres_in some CNSNeuron ## morphology and 'inheres in' some CNSNeuron
+
+Class: morphology ## 
+Class: Cell ## 
+## {"quality": "morphology", "entity": "Cell"}
+Class: Cell-morphology
+ Annotations: rdfs:label "Cell morphology"
+ Annotations: IAO:0000115 "Any morphology that inheres in Cell."
+ EquivalentTo: morphology and inheres_in some Cell ## morphology and 'inheres in' some Cell
+
+Class: morphology ## 
+Class: ForeLimbBone ## 
+## {"quality": "morphology", "entity": "ForeLimbBone"}
+Class: ForeLimbBone-morphology
+ Annotations: rdfs:label "ForeLimbBone morphology"
+ Annotations: IAO:0000115 "Any morphology that inheres in ForeLimbBone."
+ EquivalentTo: morphology and inheres_in some ForeLimbBone ## morphology and 'inheres in' some ForeLimbBone
+
+Class: morphology ## 
+Class: HindLimbBone ## 
+## {"quality": "morphology", "entity": "HindLimbBone"}
+Class: HindLimbBone-morphology
+ Annotations: rdfs:label "HindLimbBone morphology"
+ Annotations: IAO:0000115 "Any morphology that inheres in HindLimbBone."
+ EquivalentTo: morphology and inheres_in some HindLimbBone ## morphology and 'inheres in' some HindLimbBone
+
+Class: morphology ## 
+Class: ImmuneCell ## 
+## {"quality": "morphology", "entity": "ImmuneCell"}
+Class: ImmuneCell-morphology
+ Annotations: rdfs:label "ImmuneCell morphology"
+ Annotations: IAO:0000115 "Any morphology that inheres in ImmuneCell."
+ EquivalentTo: morphology and inheres_in some ImmuneCell ## morphology and 'inheres in' some ImmuneCell
+
+Class: morphology ## 
+Class: LeftLung ## 
+## {"quality": "morphology", "entity": "LeftLung"}
+Class: LeftLung-morphology
+ Annotations: rdfs:label "LeftLung morphology"
+ Annotations: IAO:0000115 "Any morphology that inheres in LeftLung."
+ EquivalentTo: morphology and inheres_in some LeftLung ## morphology and 'inheres in' some LeftLung
+
+Class: morphology ## 
+Class: LimbBone ## 
+## {"quality": "morphology", "entity": "LimbBone"}
+Class: LimbBone-morphology
+ Annotations: rdfs:label "LimbBone morphology"
+ Annotations: IAO:0000115 "Any morphology that inheres in LimbBone."
+ EquivalentTo: morphology and inheres_in some LimbBone ## morphology and 'inheres in' some LimbBone
+
+Class: morphology ## 
+Class: Lung ## 
+## {"quality": "morphology", "entity": "Lung"}
+Class: Lung-morphology
+ Annotations: rdfs:label "Lung morphology"
+ Annotations: IAO:0000115 "Any morphology that inheres in Lung."
+ EquivalentTo: morphology and inheres_in some Lung ## morphology and 'inheres in' some Lung
+
+Class: morphology ## 
+Class: Neuron ## 
+## {"quality": "morphology", "entity": "Neuron"}
+Class: Neuron-morphology
+ Annotations: rdfs:label "Neuron morphology"
+ Annotations: IAO:0000115 "Any morphology that inheres in Neuron."
+ EquivalentTo: morphology and inheres_in some Neuron ## morphology and 'inheres in' some Neuron
+
+Class: morphology ## 
+Class: Organ ## 
+## {"quality": "morphology", "entity": "Organ"}
+Class: Organ-morphology
+ Annotations: rdfs:label "Organ morphology"
+ Annotations: IAO:0000115 "Any morphology that inheres in Organ."
+ EquivalentTo: morphology and inheres_in some Organ ## morphology and 'inheres in' some Organ
+
+Class: morphology ## 
+Class: RightLung ## 
+## {"quality": "morphology", "entity": "RightLung"}
+Class: RightLung-morphology
+ Annotations: rdfs:label "RightLung morphology"
+ Annotations: IAO:0000115 "Any morphology that inheres in RightLung."
+ EquivalentTo: morphology and inheres_in some RightLung ## morphology and 'inheres in' some RightLung
+
+Class: morphology ## 
+Class: SkullBone ## 
+## {"quality": "morphology", "entity": "SkullBone"}
+Class: SkullBone-morphology
+ Annotations: rdfs:label "SkullBone morphology"
+ Annotations: IAO:0000115 "Any morphology that inheres in SkullBone."
+ EquivalentTo: morphology and inheres_in some SkullBone ## morphology and 'inheres in' some SkullBone
+
+Class: morphology ## 
+Class: TCell ## 
+## {"quality": "morphology", "entity": "TCell"}
+Class: TCell-morphology
+ Annotations: rdfs:label "TCell morphology"
+ Annotations: IAO:0000115 "Any morphology that inheres in TCell."
+ EquivalentTo: morphology and inheres_in some TCell ## morphology and 'inheres in' some TCell
+
+Class: shape ## 
+Class: BCell ## 
+## {"quality": "shape", "entity": "BCell"}
+Class: BCell-shape
+ Annotations: rdfs:label "BCell shape"
+ Annotations: IAO:0000115 "Any shape that inheres in BCell."
+ EquivalentTo: shape and inheres_in some BCell ## shape and 'inheres in' some BCell
+
+Class: shape ## 
+Class: Bone ## 
+## {"quality": "shape", "entity": "Bone"}
+Class: Bone-shape
+ Annotations: rdfs:label "Bone shape"
+ Annotations: IAO:0000115 "Any shape that inheres in Bone."
+ EquivalentTo: shape and inheres_in some Bone ## shape and 'inheres in' some Bone
+
+Class: shape ## 
+Class: Brain ## 
+## {"quality": "shape", "entity": "Brain"}
+Class: Brain-shape
+ Annotations: rdfs:label "Brain shape"
+ Annotations: IAO:0000115 "Any shape that inheres in Brain."
+ EquivalentTo: shape and inheres_in some Brain ## shape and 'inheres in' some Brain
+
+Class: shape ## 
+Class: BrainNeuron ## 
+## {"quality": "shape", "entity": "BrainNeuron"}
+Class: BrainNeuron-shape
+ Annotations: rdfs:label "BrainNeuron shape"
+ Annotations: IAO:0000115 "Any shape that inheres in BrainNeuron."
+ EquivalentTo: shape and inheres_in some BrainNeuron ## shape and 'inheres in' some BrainNeuron
+
+Class: shape ## 
+Class: CNSNeuron ## 
+## {"quality": "shape", "entity": "CNSNeuron"}
+Class: CNSNeuron-shape
+ Annotations: rdfs:label "CNSNeuron shape"
+ Annotations: IAO:0000115 "Any shape that inheres in CNSNeuron."
+ EquivalentTo: shape and inheres_in some CNSNeuron ## shape and 'inheres in' some CNSNeuron
+
+Class: shape ## 
+Class: Cell ## 
+## {"quality": "shape", "entity": "Cell"}
+Class: Cell-shape
+ Annotations: rdfs:label "Cell shape"
+ Annotations: IAO:0000115 "Any shape that inheres in Cell."
+ EquivalentTo: shape and inheres_in some Cell ## shape and 'inheres in' some Cell
+
+Class: shape ## 
+Class: ForeLimbBone ## 
+## {"quality": "shape", "entity": "ForeLimbBone"}
+Class: ForeLimbBone-shape
+ Annotations: rdfs:label "ForeLimbBone shape"
+ Annotations: IAO:0000115 "Any shape that inheres in ForeLimbBone."
+ EquivalentTo: shape and inheres_in some ForeLimbBone ## shape and 'inheres in' some ForeLimbBone
+
+Class: shape ## 
+Class: HindLimbBone ## 
+## {"quality": "shape", "entity": "HindLimbBone"}
+Class: HindLimbBone-shape
+ Annotations: rdfs:label "HindLimbBone shape"
+ Annotations: IAO:0000115 "Any shape that inheres in HindLimbBone."
+ EquivalentTo: shape and inheres_in some HindLimbBone ## shape and 'inheres in' some HindLimbBone
+
+Class: shape ## 
+Class: ImmuneCell ## 
+## {"quality": "shape", "entity": "ImmuneCell"}
+Class: ImmuneCell-shape
+ Annotations: rdfs:label "ImmuneCell shape"
+ Annotations: IAO:0000115 "Any shape that inheres in ImmuneCell."
+ EquivalentTo: shape and inheres_in some ImmuneCell ## shape and 'inheres in' some ImmuneCell
+
+Class: shape ## 
+Class: LeftLung ## 
+## {"quality": "shape", "entity": "LeftLung"}
+Class: LeftLung-shape
+ Annotations: rdfs:label "LeftLung shape"
+ Annotations: IAO:0000115 "Any shape that inheres in LeftLung."
+ EquivalentTo: shape and inheres_in some LeftLung ## shape and 'inheres in' some LeftLung
+
+Class: shape ## 
+Class: LimbBone ## 
+## {"quality": "shape", "entity": "LimbBone"}
+Class: LimbBone-shape
+ Annotations: rdfs:label "LimbBone shape"
+ Annotations: IAO:0000115 "Any shape that inheres in LimbBone."
+ EquivalentTo: shape and inheres_in some LimbBone ## shape and 'inheres in' some LimbBone
+
+Class: shape ## 
+Class: Lung ## 
+## {"quality": "shape", "entity": "Lung"}
+Class: Lung-shape
+ Annotations: rdfs:label "Lung shape"
+ Annotations: IAO:0000115 "Any shape that inheres in Lung."
+ EquivalentTo: shape and inheres_in some Lung ## shape and 'inheres in' some Lung
+
+Class: shape ## 
+Class: Neuron ## 
+## {"quality": "shape", "entity": "Neuron"}
+Class: Neuron-shape
+ Annotations: rdfs:label "Neuron shape"
+ Annotations: IAO:0000115 "Any shape that inheres in Neuron."
+ EquivalentTo: shape and inheres_in some Neuron ## shape and 'inheres in' some Neuron
+
+Class: shape ## 
+Class: Organ ## 
+## {"quality": "shape", "entity": "Organ"}
+Class: Organ-shape
+ Annotations: rdfs:label "Organ shape"
+ Annotations: IAO:0000115 "Any shape that inheres in Organ."
+ EquivalentTo: shape and inheres_in some Organ ## shape and 'inheres in' some Organ
+
+Class: shape ## 
+Class: RightLung ## 
+## {"quality": "shape", "entity": "RightLung"}
+Class: RightLung-shape
+ Annotations: rdfs:label "RightLung shape"
+ Annotations: IAO:0000115 "Any shape that inheres in RightLung."
+ EquivalentTo: shape and inheres_in some RightLung ## shape and 'inheres in' some RightLung
+
+Class: shape ## 
+Class: SkullBone ## 
+## {"quality": "shape", "entity": "SkullBone"}
+Class: SkullBone-shape
+ Annotations: rdfs:label "SkullBone shape"
+ Annotations: IAO:0000115 "Any shape that inheres in SkullBone."
+ EquivalentTo: shape and inheres_in some SkullBone ## shape and 'inheres in' some SkullBone
+
+Class: shape ## 
+Class: TCell ## 
+## {"quality": "shape", "entity": "TCell"}
+Class: TCell-shape
+ Annotations: rdfs:label "TCell shape"
+ Annotations: IAO:0000115 "Any shape that inheres in TCell."
+ EquivalentTo: shape and inheres_in some TCell ## shape and 'inheres in' some TCell
+
+Class: size ## 
+Class: BCell ## 
+## {"quality": "size", "entity": "BCell"}
+Class: BCell-size
+ Annotations: rdfs:label "BCell size"
+ Annotations: IAO:0000115 "Any size that inheres in BCell."
+ EquivalentTo: size and inheres_in some BCell ## size and 'inheres in' some BCell
+
+Class: size ## 
+Class: Bone ## 
+## {"quality": "size", "entity": "Bone"}
+Class: Bone-size
+ Annotations: rdfs:label "Bone size"
+ Annotations: IAO:0000115 "Any size that inheres in Bone."
+ EquivalentTo: size and inheres_in some Bone ## size and 'inheres in' some Bone
+
+Class: size ## 
+Class: Brain ## 
+## {"quality": "size", "entity": "Brain"}
+Class: Brain-size
+ Annotations: rdfs:label "Brain size"
+ Annotations: IAO:0000115 "Any size that inheres in Brain."
+ EquivalentTo: size and inheres_in some Brain ## size and 'inheres in' some Brain
+
+Class: size ## 
+Class: BrainNeuron ## 
+## {"quality": "size", "entity": "BrainNeuron"}
+Class: BrainNeuron-size
+ Annotations: rdfs:label "BrainNeuron size"
+ Annotations: IAO:0000115 "Any size that inheres in BrainNeuron."
+ EquivalentTo: size and inheres_in some BrainNeuron ## size and 'inheres in' some BrainNeuron
+
+Class: size ## 
+Class: CNSNeuron ## 
+## {"quality": "size", "entity": "CNSNeuron"}
+Class: CNSNeuron-size
+ Annotations: rdfs:label "CNSNeuron size"
+ Annotations: IAO:0000115 "Any size that inheres in CNSNeuron."
+ EquivalentTo: size and inheres_in some CNSNeuron ## size and 'inheres in' some CNSNeuron
+
+Class: size ## 
+Class: Cell ## 
+## {"quality": "size", "entity": "Cell"}
+Class: Cell-size
+ Annotations: rdfs:label "Cell size"
+ Annotations: IAO:0000115 "Any size that inheres in Cell."
+ EquivalentTo: size and inheres_in some Cell ## size and 'inheres in' some Cell
+
+Class: size ## 
+Class: ForeLimbBone ## 
+## {"quality": "size", "entity": "ForeLimbBone"}
+Class: ForeLimbBone-size
+ Annotations: rdfs:label "ForeLimbBone size"
+ Annotations: IAO:0000115 "Any size that inheres in ForeLimbBone."
+ EquivalentTo: size and inheres_in some ForeLimbBone ## size and 'inheres in' some ForeLimbBone
+
+Class: size ## 
+Class: HindLimbBone ## 
+## {"quality": "size", "entity": "HindLimbBone"}
+Class: HindLimbBone-size
+ Annotations: rdfs:label "HindLimbBone size"
+ Annotations: IAO:0000115 "Any size that inheres in HindLimbBone."
+ EquivalentTo: size and inheres_in some HindLimbBone ## size and 'inheres in' some HindLimbBone
+
+Class: size ## 
+Class: ImmuneCell ## 
+## {"quality": "size", "entity": "ImmuneCell"}
+Class: ImmuneCell-size
+ Annotations: rdfs:label "ImmuneCell size"
+ Annotations: IAO:0000115 "Any size that inheres in ImmuneCell."
+ EquivalentTo: size and inheres_in some ImmuneCell ## size and 'inheres in' some ImmuneCell
+
+Class: size ## 
+Class: LeftLung ## 
+## {"quality": "size", "entity": "LeftLung"}
+Class: LeftLung-size
+ Annotations: rdfs:label "LeftLung size"
+ Annotations: IAO:0000115 "Any size that inheres in LeftLung."
+ EquivalentTo: size and inheres_in some LeftLung ## size and 'inheres in' some LeftLung
+
+Class: size ## 
+Class: LimbBone ## 
+## {"quality": "size", "entity": "LimbBone"}
+Class: LimbBone-size
+ Annotations: rdfs:label "LimbBone size"
+ Annotations: IAO:0000115 "Any size that inheres in LimbBone."
+ EquivalentTo: size and inheres_in some LimbBone ## size and 'inheres in' some LimbBone
+
+Class: size ## 
+Class: Lung ## 
+## {"quality": "size", "entity": "Lung"}
+Class: Lung-size
+ Annotations: rdfs:label "Lung size"
+ Annotations: IAO:0000115 "Any size that inheres in Lung."
+ EquivalentTo: size and inheres_in some Lung ## size and 'inheres in' some Lung
+
+Class: size ## 
+Class: Neuron ## 
+## {"quality": "size", "entity": "Neuron"}
+Class: Neuron-size
+ Annotations: rdfs:label "Neuron size"
+ Annotations: IAO:0000115 "Any size that inheres in Neuron."
+ EquivalentTo: size and inheres_in some Neuron ## size and 'inheres in' some Neuron
+
+Class: size ## 
+Class: Organ ## 
+## {"quality": "size", "entity": "Organ"}
+Class: Organ-size
+ Annotations: rdfs:label "Organ size"
+ Annotations: IAO:0000115 "Any size that inheres in Organ."
+ EquivalentTo: size and inheres_in some Organ ## size and 'inheres in' some Organ
+
+Class: size ## 
+Class: RightLung ## 
+## {"quality": "size", "entity": "RightLung"}
+Class: RightLung-size
+ Annotations: rdfs:label "RightLung size"
+ Annotations: IAO:0000115 "Any size that inheres in RightLung."
+ EquivalentTo: size and inheres_in some RightLung ## size and 'inheres in' some RightLung
+
+Class: size ## 
+Class: SkullBone ## 
+## {"quality": "size", "entity": "SkullBone"}
+Class: SkullBone-size
+ Annotations: rdfs:label "SkullBone size"
+ Annotations: IAO:0000115 "Any size that inheres in SkullBone."
+ EquivalentTo: size and inheres_in some SkullBone ## size and 'inheres in' some SkullBone
+
+Class: size ## 
+Class: TCell ## 
+## {"quality": "size", "entity": "TCell"}
+Class: TCell-size
+ Annotations: rdfs:label "TCell size"
+ Annotations: IAO:0000115 "Any size that inheres in TCell."
+ EquivalentTo: size and inheres_in some TCell ## size and 'inheres in' some TCell

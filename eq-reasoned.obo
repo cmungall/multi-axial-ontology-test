@@ -1,0 +1,741 @@
+format-version: 1.2
+ontology: http://example.org/test/auto
+
+[Term]
+id: http://example.org/test/BCell-decreasedSize
+name: BCell decreasedSize
+def: "Any decreasedSize that inheres in BCell." []
+is_a: http://example.org/test/BCell-size ! BCell size
+is_a: http://example.org/test/ImmuneCell-decreasedSize ! ImmuneCell decreasedSize
+intersection_of: http://example.org/test/decreasedSize
+intersection_of: inheres:in http://example.org/test/BCell
+
+[Term]
+id: http://example.org/test/BCell-increasedSize
+name: BCell increasedSize
+def: "Any increasedSize that inheres in BCell." []
+is_a: http://example.org/test/BCell-size ! BCell size
+is_a: http://example.org/test/ImmuneCell-increasedSize ! ImmuneCell increasedSize
+intersection_of: http://example.org/test/increasedSize
+intersection_of: inheres:in http://example.org/test/BCell
+
+[Term]
+id: http://example.org/test/BCell-morphology
+name: BCell morphology
+def: "Any morphology that inheres in BCell." []
+is_a: http://example.org/test/ImmuneCell-morphology ! ImmuneCell morphology
+intersection_of: http://example.org/test/morphology
+intersection_of: inheres:in http://example.org/test/BCell
+
+[Term]
+id: http://example.org/test/BCell-shape
+name: BCell shape
+def: "Any shape that inheres in BCell." []
+is_a: http://example.org/test/BCell-morphology ! BCell morphology
+is_a: http://example.org/test/ImmuneCell-shape ! ImmuneCell shape
+intersection_of: http://example.org/test/shape
+intersection_of: inheres:in http://example.org/test/BCell
+
+[Term]
+id: http://example.org/test/BCell-size
+name: BCell size
+def: "Any size that inheres in BCell." []
+is_a: http://example.org/test/BCell-morphology ! BCell morphology
+is_a: http://example.org/test/ImmuneCell-size ! ImmuneCell size
+intersection_of: http://example.org/test/size
+intersection_of: inheres:in http://example.org/test/BCell
+
+[Term]
+id: http://example.org/test/Bone-decreasedSize
+name: Bone decreasedSize
+def: "Any decreasedSize that inheres in Bone." []
+is_a: http://example.org/test/Bone-size ! Bone size
+is_a: http://example.org/test/Organ-decreasedSize ! Organ decreasedSize
+intersection_of: http://example.org/test/decreasedSize
+intersection_of: inheres:in http://example.org/test/Bone
+
+[Term]
+id: http://example.org/test/Bone-increasedSize
+name: Bone increasedSize
+def: "Any increasedSize that inheres in Bone." []
+is_a: http://example.org/test/Bone-size ! Bone size
+is_a: http://example.org/test/Organ-increasedSize ! Organ increasedSize
+intersection_of: http://example.org/test/increasedSize
+intersection_of: inheres:in http://example.org/test/Bone
+
+[Term]
+id: http://example.org/test/Bone-morphology
+name: Bone morphology
+def: "Any morphology that inheres in Bone." []
+is_a: http://example.org/test/Organ-morphology ! Organ morphology
+intersection_of: http://example.org/test/morphology
+intersection_of: inheres:in http://example.org/test/Bone
+
+[Term]
+id: http://example.org/test/Bone-shape
+name: Bone shape
+def: "Any shape that inheres in Bone." []
+is_a: http://example.org/test/Bone-morphology ! Bone morphology
+is_a: http://example.org/test/Organ-shape ! Organ shape
+intersection_of: http://example.org/test/shape
+intersection_of: inheres:in http://example.org/test/Bone
+
+[Term]
+id: http://example.org/test/Bone-size
+name: Bone size
+def: "Any size that inheres in Bone." []
+is_a: http://example.org/test/Bone-morphology ! Bone morphology
+is_a: http://example.org/test/Organ-size ! Organ size
+intersection_of: http://example.org/test/size
+intersection_of: inheres:in http://example.org/test/Bone
+
+[Term]
+id: http://example.org/test/Brain-decreasedSize
+name: Brain decreasedSize
+def: "Any decreasedSize that inheres in Brain." []
+is_a: http://example.org/test/Brain-size ! Brain size
+is_a: http://example.org/test/Organ-decreasedSize ! Organ decreasedSize
+intersection_of: http://example.org/test/decreasedSize
+intersection_of: inheres:in http://example.org/test/Brain
+
+[Term]
+id: http://example.org/test/Brain-increasedSize
+name: Brain increasedSize
+def: "Any increasedSize that inheres in Brain." []
+is_a: http://example.org/test/Brain-size ! Brain size
+is_a: http://example.org/test/Organ-increasedSize ! Organ increasedSize
+intersection_of: http://example.org/test/increasedSize
+intersection_of: inheres:in http://example.org/test/Brain
+
+[Term]
+id: http://example.org/test/Brain-morphology
+name: Brain morphology
+def: "Any morphology that inheres in Brain." []
+is_a: http://example.org/test/Organ-morphology ! Organ morphology
+intersection_of: http://example.org/test/morphology
+intersection_of: inheres:in http://example.org/test/Brain
+
+[Term]
+id: http://example.org/test/Brain-shape
+name: Brain shape
+def: "Any shape that inheres in Brain." []
+is_a: http://example.org/test/Brain-morphology ! Brain morphology
+is_a: http://example.org/test/Organ-shape ! Organ shape
+intersection_of: http://example.org/test/shape
+intersection_of: inheres:in http://example.org/test/Brain
+
+[Term]
+id: http://example.org/test/Brain-size
+name: Brain size
+def: "Any size that inheres in Brain." []
+is_a: http://example.org/test/Brain-morphology ! Brain morphology
+is_a: http://example.org/test/Organ-size ! Organ size
+intersection_of: http://example.org/test/size
+intersection_of: inheres:in http://example.org/test/Brain
+
+[Term]
+id: http://example.org/test/BrainNeuron-decreasedSize
+name: BrainNeuron decreasedSize
+def: "Any decreasedSize that inheres in BrainNeuron." []
+is_a: http://example.org/test/BrainNeuron-size ! BrainNeuron size
+is_a: http://example.org/test/Neuron-decreasedSize ! Neuron decreasedSize
+intersection_of: http://example.org/test/decreasedSize
+intersection_of: inheres:in http://example.org/test/BrainNeuron
+
+[Term]
+id: http://example.org/test/BrainNeuron-increasedSize
+name: BrainNeuron increasedSize
+def: "Any increasedSize that inheres in BrainNeuron." []
+is_a: http://example.org/test/BrainNeuron-size ! BrainNeuron size
+is_a: http://example.org/test/Neuron-increasedSize ! Neuron increasedSize
+intersection_of: http://example.org/test/increasedSize
+intersection_of: inheres:in http://example.org/test/BrainNeuron
+
+[Term]
+id: http://example.org/test/BrainNeuron-morphology
+name: BrainNeuron morphology
+def: "Any morphology that inheres in BrainNeuron." []
+is_a: http://example.org/test/Neuron-morphology ! Neuron morphology
+intersection_of: http://example.org/test/morphology
+intersection_of: inheres:in http://example.org/test/BrainNeuron
+
+[Term]
+id: http://example.org/test/BrainNeuron-shape
+name: BrainNeuron shape
+def: "Any shape that inheres in BrainNeuron." []
+is_a: http://example.org/test/BrainNeuron-morphology ! BrainNeuron morphology
+is_a: http://example.org/test/Neuron-shape ! Neuron shape
+intersection_of: http://example.org/test/shape
+intersection_of: inheres:in http://example.org/test/BrainNeuron
+
+[Term]
+id: http://example.org/test/BrainNeuron-size
+name: BrainNeuron size
+def: "Any size that inheres in BrainNeuron." []
+is_a: http://example.org/test/BrainNeuron-morphology ! BrainNeuron morphology
+is_a: http://example.org/test/Neuron-size ! Neuron size
+intersection_of: http://example.org/test/size
+intersection_of: inheres:in http://example.org/test/BrainNeuron
+
+[Term]
+id: http://example.org/test/CNSNeuron-decreasedSize
+name: CNSNeuron decreasedSize
+def: "Any decreasedSize that inheres in CNSNeuron." []
+is_a: http://example.org/test/CNSNeuron-size ! CNSNeuron size
+is_a: http://example.org/test/Neuron-decreasedSize ! Neuron decreasedSize
+intersection_of: http://example.org/test/decreasedSize
+intersection_of: inheres:in http://example.org/test/CNSNeuron
+
+[Term]
+id: http://example.org/test/CNSNeuron-increasedSize
+name: CNSNeuron increasedSize
+def: "Any increasedSize that inheres in CNSNeuron." []
+is_a: http://example.org/test/CNSNeuron-size ! CNSNeuron size
+is_a: http://example.org/test/Neuron-increasedSize ! Neuron increasedSize
+intersection_of: http://example.org/test/increasedSize
+intersection_of: inheres:in http://example.org/test/CNSNeuron
+
+[Term]
+id: http://example.org/test/CNSNeuron-morphology
+name: CNSNeuron morphology
+def: "Any morphology that inheres in CNSNeuron." []
+is_a: http://example.org/test/Neuron-morphology ! Neuron morphology
+intersection_of: http://example.org/test/morphology
+intersection_of: inheres:in http://example.org/test/CNSNeuron
+
+[Term]
+id: http://example.org/test/CNSNeuron-shape
+name: CNSNeuron shape
+def: "Any shape that inheres in CNSNeuron." []
+is_a: http://example.org/test/CNSNeuron-morphology ! CNSNeuron morphology
+is_a: http://example.org/test/Neuron-shape ! Neuron shape
+intersection_of: http://example.org/test/shape
+intersection_of: inheres:in http://example.org/test/CNSNeuron
+
+[Term]
+id: http://example.org/test/CNSNeuron-size
+name: CNSNeuron size
+def: "Any size that inheres in CNSNeuron." []
+is_a: http://example.org/test/CNSNeuron-morphology ! CNSNeuron morphology
+is_a: http://example.org/test/Neuron-size ! Neuron size
+intersection_of: http://example.org/test/size
+intersection_of: inheres:in http://example.org/test/CNSNeuron
+
+[Term]
+id: http://example.org/test/Cell-decreasedSize
+name: Cell decreasedSize
+def: "Any decreasedSize that inheres in Cell." []
+is_a: http://example.org/test/Cell-size ! Cell size
+intersection_of: http://example.org/test/decreasedSize
+intersection_of: inheres:in http://example.org/test/Cell
+
+[Term]
+id: http://example.org/test/Cell-increasedSize
+name: Cell increasedSize
+def: "Any increasedSize that inheres in Cell." []
+is_a: http://example.org/test/Cell-size ! Cell size
+intersection_of: http://example.org/test/increasedSize
+intersection_of: inheres:in http://example.org/test/Cell
+
+[Term]
+id: http://example.org/test/Cell-morphology
+name: Cell morphology
+def: "Any morphology that inheres in Cell." []
+intersection_of: http://example.org/test/morphology
+intersection_of: inheres:in http://example.org/test/Cell
+
+[Term]
+id: http://example.org/test/Cell-shape
+name: Cell shape
+def: "Any shape that inheres in Cell." []
+is_a: http://example.org/test/Cell-morphology ! Cell morphology
+intersection_of: http://example.org/test/shape
+intersection_of: inheres:in http://example.org/test/Cell
+
+[Term]
+id: http://example.org/test/Cell-size
+name: Cell size
+def: "Any size that inheres in Cell." []
+is_a: http://example.org/test/Cell-morphology ! Cell morphology
+intersection_of: http://example.org/test/size
+intersection_of: inheres:in http://example.org/test/Cell
+
+[Term]
+id: http://example.org/test/ForeLimbBone-decreasedSize
+name: ForeLimbBone decreasedSize
+def: "Any decreasedSize that inheres in ForeLimbBone." []
+is_a: http://example.org/test/ForeLimbBone-size ! ForeLimbBone size
+is_a: http://example.org/test/LimbBone-decreasedSize ! LimbBone decreasedSize
+intersection_of: http://example.org/test/decreasedSize
+intersection_of: inheres:in http://example.org/test/ForeLimbBone
+
+[Term]
+id: http://example.org/test/ForeLimbBone-increasedSize
+name: ForeLimbBone increasedSize
+def: "Any increasedSize that inheres in ForeLimbBone." []
+is_a: http://example.org/test/ForeLimbBone-size ! ForeLimbBone size
+is_a: http://example.org/test/LimbBone-increasedSize ! LimbBone increasedSize
+intersection_of: http://example.org/test/increasedSize
+intersection_of: inheres:in http://example.org/test/ForeLimbBone
+
+[Term]
+id: http://example.org/test/ForeLimbBone-morphology
+name: ForeLimbBone morphology
+def: "Any morphology that inheres in ForeLimbBone." []
+is_a: http://example.org/test/LimbBone-morphology ! LimbBone morphology
+intersection_of: http://example.org/test/morphology
+intersection_of: inheres:in http://example.org/test/ForeLimbBone
+
+[Term]
+id: http://example.org/test/ForeLimbBone-shape
+name: ForeLimbBone shape
+def: "Any shape that inheres in ForeLimbBone." []
+is_a: http://example.org/test/ForeLimbBone-morphology ! ForeLimbBone morphology
+is_a: http://example.org/test/LimbBone-shape ! LimbBone shape
+intersection_of: http://example.org/test/shape
+intersection_of: inheres:in http://example.org/test/ForeLimbBone
+
+[Term]
+id: http://example.org/test/ForeLimbBone-size
+name: ForeLimbBone size
+def: "Any size that inheres in ForeLimbBone." []
+is_a: http://example.org/test/ForeLimbBone-morphology ! ForeLimbBone morphology
+is_a: http://example.org/test/LimbBone-size ! LimbBone size
+intersection_of: http://example.org/test/size
+intersection_of: inheres:in http://example.org/test/ForeLimbBone
+
+[Term]
+id: http://example.org/test/HindLimbBone-decreasedSize
+name: HindLimbBone decreasedSize
+def: "Any decreasedSize that inheres in HindLimbBone." []
+is_a: http://example.org/test/HindLimbBone-size ! HindLimbBone size
+is_a: http://example.org/test/LimbBone-decreasedSize ! LimbBone decreasedSize
+intersection_of: http://example.org/test/decreasedSize
+intersection_of: inheres:in http://example.org/test/HindLimbBone
+
+[Term]
+id: http://example.org/test/HindLimbBone-increasedSize
+name: HindLimbBone increasedSize
+def: "Any increasedSize that inheres in HindLimbBone." []
+is_a: http://example.org/test/HindLimbBone-size ! HindLimbBone size
+is_a: http://example.org/test/LimbBone-increasedSize ! LimbBone increasedSize
+intersection_of: http://example.org/test/increasedSize
+intersection_of: inheres:in http://example.org/test/HindLimbBone
+
+[Term]
+id: http://example.org/test/HindLimbBone-morphology
+name: HindLimbBone morphology
+def: "Any morphology that inheres in HindLimbBone." []
+is_a: http://example.org/test/LimbBone-morphology ! LimbBone morphology
+intersection_of: http://example.org/test/morphology
+intersection_of: inheres:in http://example.org/test/HindLimbBone
+
+[Term]
+id: http://example.org/test/HindLimbBone-shape
+name: HindLimbBone shape
+def: "Any shape that inheres in HindLimbBone." []
+is_a: http://example.org/test/HindLimbBone-morphology ! HindLimbBone morphology
+is_a: http://example.org/test/LimbBone-shape ! LimbBone shape
+intersection_of: http://example.org/test/shape
+intersection_of: inheres:in http://example.org/test/HindLimbBone
+
+[Term]
+id: http://example.org/test/HindLimbBone-size
+name: HindLimbBone size
+def: "Any size that inheres in HindLimbBone." []
+is_a: http://example.org/test/HindLimbBone-morphology ! HindLimbBone morphology
+is_a: http://example.org/test/LimbBone-size ! LimbBone size
+intersection_of: http://example.org/test/size
+intersection_of: inheres:in http://example.org/test/HindLimbBone
+
+[Term]
+id: http://example.org/test/ImmuneCell-decreasedSize
+name: ImmuneCell decreasedSize
+def: "Any decreasedSize that inheres in ImmuneCell." []
+is_a: http://example.org/test/Cell-decreasedSize ! Cell decreasedSize
+is_a: http://example.org/test/ImmuneCell-size ! ImmuneCell size
+intersection_of: http://example.org/test/decreasedSize
+intersection_of: inheres:in http://example.org/test/ImmuneCell
+
+[Term]
+id: http://example.org/test/ImmuneCell-increasedSize
+name: ImmuneCell increasedSize
+def: "Any increasedSize that inheres in ImmuneCell." []
+is_a: http://example.org/test/Cell-increasedSize ! Cell increasedSize
+is_a: http://example.org/test/ImmuneCell-size ! ImmuneCell size
+intersection_of: http://example.org/test/increasedSize
+intersection_of: inheres:in http://example.org/test/ImmuneCell
+
+[Term]
+id: http://example.org/test/ImmuneCell-morphology
+name: ImmuneCell morphology
+def: "Any morphology that inheres in ImmuneCell." []
+is_a: http://example.org/test/Cell-morphology ! Cell morphology
+intersection_of: http://example.org/test/morphology
+intersection_of: inheres:in http://example.org/test/ImmuneCell
+
+[Term]
+id: http://example.org/test/ImmuneCell-shape
+name: ImmuneCell shape
+def: "Any shape that inheres in ImmuneCell." []
+is_a: http://example.org/test/Cell-shape ! Cell shape
+is_a: http://example.org/test/ImmuneCell-morphology ! ImmuneCell morphology
+intersection_of: http://example.org/test/shape
+intersection_of: inheres:in http://example.org/test/ImmuneCell
+
+[Term]
+id: http://example.org/test/ImmuneCell-size
+name: ImmuneCell size
+def: "Any size that inheres in ImmuneCell." []
+is_a: http://example.org/test/Cell-size ! Cell size
+is_a: http://example.org/test/ImmuneCell-morphology ! ImmuneCell morphology
+intersection_of: http://example.org/test/size
+intersection_of: inheres:in http://example.org/test/ImmuneCell
+
+[Term]
+id: http://example.org/test/LeftLung-decreasedSize
+name: LeftLung decreasedSize
+def: "Any decreasedSize that inheres in LeftLung." []
+is_a: http://example.org/test/LeftLung-size ! LeftLung size
+is_a: http://example.org/test/Lung-decreasedSize ! Lung decreasedSize
+intersection_of: http://example.org/test/decreasedSize
+intersection_of: inheres:in http://example.org/test/LeftLung
+
+[Term]
+id: http://example.org/test/LeftLung-increasedSize
+name: LeftLung increasedSize
+def: "Any increasedSize that inheres in LeftLung." []
+is_a: http://example.org/test/LeftLung-size ! LeftLung size
+is_a: http://example.org/test/Lung-increasedSize ! Lung increasedSize
+intersection_of: http://example.org/test/increasedSize
+intersection_of: inheres:in http://example.org/test/LeftLung
+
+[Term]
+id: http://example.org/test/LeftLung-morphology
+name: LeftLung morphology
+def: "Any morphology that inheres in LeftLung." []
+is_a: http://example.org/test/Lung-morphology ! Lung morphology
+intersection_of: http://example.org/test/morphology
+intersection_of: inheres:in http://example.org/test/LeftLung
+
+[Term]
+id: http://example.org/test/LeftLung-shape
+name: LeftLung shape
+def: "Any shape that inheres in LeftLung." []
+is_a: http://example.org/test/LeftLung-morphology ! LeftLung morphology
+is_a: http://example.org/test/Lung-shape ! Lung shape
+intersection_of: http://example.org/test/shape
+intersection_of: inheres:in http://example.org/test/LeftLung
+
+[Term]
+id: http://example.org/test/LeftLung-size
+name: LeftLung size
+def: "Any size that inheres in LeftLung." []
+is_a: http://example.org/test/LeftLung-morphology ! LeftLung morphology
+is_a: http://example.org/test/Lung-size ! Lung size
+intersection_of: http://example.org/test/size
+intersection_of: inheres:in http://example.org/test/LeftLung
+
+[Term]
+id: http://example.org/test/LimbBone-decreasedSize
+name: LimbBone decreasedSize
+def: "Any decreasedSize that inheres in LimbBone." []
+is_a: http://example.org/test/Bone-decreasedSize ! Bone decreasedSize
+is_a: http://example.org/test/LimbBone-size ! LimbBone size
+intersection_of: http://example.org/test/decreasedSize
+intersection_of: inheres:in http://example.org/test/LimbBone
+
+[Term]
+id: http://example.org/test/LimbBone-increasedSize
+name: LimbBone increasedSize
+def: "Any increasedSize that inheres in LimbBone." []
+is_a: http://example.org/test/Bone-increasedSize ! Bone increasedSize
+is_a: http://example.org/test/LimbBone-size ! LimbBone size
+intersection_of: http://example.org/test/increasedSize
+intersection_of: inheres:in http://example.org/test/LimbBone
+
+[Term]
+id: http://example.org/test/LimbBone-morphology
+name: LimbBone morphology
+def: "Any morphology that inheres in LimbBone." []
+is_a: http://example.org/test/Bone-morphology ! Bone morphology
+intersection_of: http://example.org/test/morphology
+intersection_of: inheres:in http://example.org/test/LimbBone
+
+[Term]
+id: http://example.org/test/LimbBone-shape
+name: LimbBone shape
+def: "Any shape that inheres in LimbBone." []
+is_a: http://example.org/test/Bone-shape ! Bone shape
+is_a: http://example.org/test/LimbBone-morphology ! LimbBone morphology
+intersection_of: http://example.org/test/shape
+intersection_of: inheres:in http://example.org/test/LimbBone
+
+[Term]
+id: http://example.org/test/LimbBone-size
+name: LimbBone size
+def: "Any size that inheres in LimbBone." []
+is_a: http://example.org/test/Bone-size ! Bone size
+is_a: http://example.org/test/LimbBone-morphology ! LimbBone morphology
+intersection_of: http://example.org/test/size
+intersection_of: inheres:in http://example.org/test/LimbBone
+
+[Term]
+id: http://example.org/test/Lung-decreasedSize
+name: Lung decreasedSize
+def: "Any decreasedSize that inheres in Lung." []
+is_a: http://example.org/test/Lung-size ! Lung size
+is_a: http://example.org/test/Organ-decreasedSize ! Organ decreasedSize
+intersection_of: http://example.org/test/decreasedSize
+intersection_of: inheres:in http://example.org/test/Lung
+
+[Term]
+id: http://example.org/test/Lung-increasedSize
+name: Lung increasedSize
+def: "Any increasedSize that inheres in Lung." []
+is_a: http://example.org/test/Lung-size ! Lung size
+is_a: http://example.org/test/Organ-increasedSize ! Organ increasedSize
+intersection_of: http://example.org/test/increasedSize
+intersection_of: inheres:in http://example.org/test/Lung
+
+[Term]
+id: http://example.org/test/Lung-morphology
+name: Lung morphology
+def: "Any morphology that inheres in Lung." []
+is_a: http://example.org/test/Organ-morphology ! Organ morphology
+intersection_of: http://example.org/test/morphology
+intersection_of: inheres:in http://example.org/test/Lung
+
+[Term]
+id: http://example.org/test/Lung-shape
+name: Lung shape
+def: "Any shape that inheres in Lung." []
+is_a: http://example.org/test/Lung-morphology ! Lung morphology
+is_a: http://example.org/test/Organ-shape ! Organ shape
+intersection_of: http://example.org/test/shape
+intersection_of: inheres:in http://example.org/test/Lung
+
+[Term]
+id: http://example.org/test/Lung-size
+name: Lung size
+def: "Any size that inheres in Lung." []
+is_a: http://example.org/test/Lung-morphology ! Lung morphology
+is_a: http://example.org/test/Organ-size ! Organ size
+intersection_of: http://example.org/test/size
+intersection_of: inheres:in http://example.org/test/Lung
+
+[Term]
+id: http://example.org/test/Neuron-decreasedSize
+name: Neuron decreasedSize
+def: "Any decreasedSize that inheres in Neuron." []
+is_a: http://example.org/test/Cell-decreasedSize ! Cell decreasedSize
+is_a: http://example.org/test/Neuron-size ! Neuron size
+intersection_of: http://example.org/test/decreasedSize
+intersection_of: inheres:in http://example.org/test/Neuron
+
+[Term]
+id: http://example.org/test/Neuron-increasedSize
+name: Neuron increasedSize
+def: "Any increasedSize that inheres in Neuron." []
+is_a: http://example.org/test/Cell-increasedSize ! Cell increasedSize
+is_a: http://example.org/test/Neuron-size ! Neuron size
+intersection_of: http://example.org/test/increasedSize
+intersection_of: inheres:in http://example.org/test/Neuron
+
+[Term]
+id: http://example.org/test/Neuron-morphology
+name: Neuron morphology
+def: "Any morphology that inheres in Neuron." []
+is_a: http://example.org/test/Cell-morphology ! Cell morphology
+intersection_of: http://example.org/test/morphology
+intersection_of: inheres:in http://example.org/test/Neuron
+
+[Term]
+id: http://example.org/test/Neuron-shape
+name: Neuron shape
+def: "Any shape that inheres in Neuron." []
+is_a: http://example.org/test/Cell-shape ! Cell shape
+is_a: http://example.org/test/Neuron-morphology ! Neuron morphology
+intersection_of: http://example.org/test/shape
+intersection_of: inheres:in http://example.org/test/Neuron
+
+[Term]
+id: http://example.org/test/Neuron-size
+name: Neuron size
+def: "Any size that inheres in Neuron." []
+is_a: http://example.org/test/Cell-size ! Cell size
+is_a: http://example.org/test/Neuron-morphology ! Neuron morphology
+intersection_of: http://example.org/test/size
+intersection_of: inheres:in http://example.org/test/Neuron
+
+[Term]
+id: http://example.org/test/Organ-decreasedSize
+name: Organ decreasedSize
+def: "Any decreasedSize that inheres in Organ." []
+is_a: http://example.org/test/Organ-size ! Organ size
+intersection_of: http://example.org/test/decreasedSize
+intersection_of: inheres:in http://example.org/test/Organ
+
+[Term]
+id: http://example.org/test/Organ-increasedSize
+name: Organ increasedSize
+def: "Any increasedSize that inheres in Organ." []
+is_a: http://example.org/test/Organ-size ! Organ size
+intersection_of: http://example.org/test/increasedSize
+intersection_of: inheres:in http://example.org/test/Organ
+
+[Term]
+id: http://example.org/test/Organ-morphology
+name: Organ morphology
+def: "Any morphology that inheres in Organ." []
+intersection_of: http://example.org/test/morphology
+intersection_of: inheres:in http://example.org/test/Organ
+
+[Term]
+id: http://example.org/test/Organ-shape
+name: Organ shape
+def: "Any shape that inheres in Organ." []
+is_a: http://example.org/test/Organ-morphology ! Organ morphology
+intersection_of: http://example.org/test/shape
+intersection_of: inheres:in http://example.org/test/Organ
+
+[Term]
+id: http://example.org/test/Organ-size
+name: Organ size
+def: "Any size that inheres in Organ." []
+is_a: http://example.org/test/Organ-morphology ! Organ morphology
+intersection_of: http://example.org/test/size
+intersection_of: inheres:in http://example.org/test/Organ
+
+[Term]
+id: http://example.org/test/RightLung-decreasedSize
+name: RightLung decreasedSize
+def: "Any decreasedSize that inheres in RightLung." []
+is_a: http://example.org/test/Lung-decreasedSize ! Lung decreasedSize
+is_a: http://example.org/test/RightLung-size ! RightLung size
+intersection_of: http://example.org/test/decreasedSize
+intersection_of: inheres:in http://example.org/test/RightLung
+
+[Term]
+id: http://example.org/test/RightLung-increasedSize
+name: RightLung increasedSize
+def: "Any increasedSize that inheres in RightLung." []
+is_a: http://example.org/test/Lung-increasedSize ! Lung increasedSize
+is_a: http://example.org/test/RightLung-size ! RightLung size
+intersection_of: http://example.org/test/increasedSize
+intersection_of: inheres:in http://example.org/test/RightLung
+
+[Term]
+id: http://example.org/test/RightLung-morphology
+name: RightLung morphology
+def: "Any morphology that inheres in RightLung." []
+is_a: http://example.org/test/Lung-morphology ! Lung morphology
+intersection_of: http://example.org/test/morphology
+intersection_of: inheres:in http://example.org/test/RightLung
+
+[Term]
+id: http://example.org/test/RightLung-shape
+name: RightLung shape
+def: "Any shape that inheres in RightLung." []
+is_a: http://example.org/test/Lung-shape ! Lung shape
+is_a: http://example.org/test/RightLung-morphology ! RightLung morphology
+intersection_of: http://example.org/test/shape
+intersection_of: inheres:in http://example.org/test/RightLung
+
+[Term]
+id: http://example.org/test/RightLung-size
+name: RightLung size
+def: "Any size that inheres in RightLung." []
+is_a: http://example.org/test/Lung-size ! Lung size
+is_a: http://example.org/test/RightLung-morphology ! RightLung morphology
+intersection_of: http://example.org/test/size
+intersection_of: inheres:in http://example.org/test/RightLung
+
+[Term]
+id: http://example.org/test/SkullBone-decreasedSize
+name: SkullBone decreasedSize
+def: "Any decreasedSize that inheres in SkullBone." []
+is_a: http://example.org/test/Bone-decreasedSize ! Bone decreasedSize
+is_a: http://example.org/test/SkullBone-size ! SkullBone size
+intersection_of: http://example.org/test/decreasedSize
+intersection_of: inheres:in http://example.org/test/SkullBone
+
+[Term]
+id: http://example.org/test/SkullBone-increasedSize
+name: SkullBone increasedSize
+def: "Any increasedSize that inheres in SkullBone." []
+is_a: http://example.org/test/Bone-increasedSize ! Bone increasedSize
+is_a: http://example.org/test/SkullBone-size ! SkullBone size
+intersection_of: http://example.org/test/increasedSize
+intersection_of: inheres:in http://example.org/test/SkullBone
+
+[Term]
+id: http://example.org/test/SkullBone-morphology
+name: SkullBone morphology
+def: "Any morphology that inheres in SkullBone." []
+is_a: http://example.org/test/Bone-morphology ! Bone morphology
+intersection_of: http://example.org/test/morphology
+intersection_of: inheres:in http://example.org/test/SkullBone
+
+[Term]
+id: http://example.org/test/SkullBone-shape
+name: SkullBone shape
+def: "Any shape that inheres in SkullBone." []
+is_a: http://example.org/test/Bone-shape ! Bone shape
+is_a: http://example.org/test/SkullBone-morphology ! SkullBone morphology
+intersection_of: http://example.org/test/shape
+intersection_of: inheres:in http://example.org/test/SkullBone
+
+[Term]
+id: http://example.org/test/SkullBone-size
+name: SkullBone size
+def: "Any size that inheres in SkullBone." []
+is_a: http://example.org/test/Bone-size ! Bone size
+is_a: http://example.org/test/SkullBone-morphology ! SkullBone morphology
+intersection_of: http://example.org/test/size
+intersection_of: inheres:in http://example.org/test/SkullBone
+
+[Term]
+id: http://example.org/test/TCell-decreasedSize
+name: TCell decreasedSize
+def: "Any decreasedSize that inheres in TCell." []
+is_a: http://example.org/test/ImmuneCell-decreasedSize ! ImmuneCell decreasedSize
+is_a: http://example.org/test/TCell-size ! TCell size
+intersection_of: http://example.org/test/decreasedSize
+intersection_of: inheres:in http://example.org/test/TCell
+
+[Term]
+id: http://example.org/test/TCell-increasedSize
+name: TCell increasedSize
+def: "Any increasedSize that inheres in TCell." []
+is_a: http://example.org/test/ImmuneCell-increasedSize ! ImmuneCell increasedSize
+is_a: http://example.org/test/TCell-size ! TCell size
+intersection_of: http://example.org/test/increasedSize
+intersection_of: inheres:in http://example.org/test/TCell
+
+[Term]
+id: http://example.org/test/TCell-morphology
+name: TCell morphology
+def: "Any morphology that inheres in TCell." []
+is_a: http://example.org/test/ImmuneCell-morphology ! ImmuneCell morphology
+intersection_of: http://example.org/test/morphology
+intersection_of: inheres:in http://example.org/test/TCell
+
+[Term]
+id: http://example.org/test/TCell-shape
+name: TCell shape
+def: "Any shape that inheres in TCell." []
+is_a: http://example.org/test/ImmuneCell-shape ! ImmuneCell shape
+is_a: http://example.org/test/TCell-morphology ! TCell morphology
+intersection_of: http://example.org/test/shape
+intersection_of: inheres:in http://example.org/test/TCell
+
+[Term]
+id: http://example.org/test/TCell-size
+name: TCell size
+def: "Any size that inheres in TCell." []
+is_a: http://example.org/test/ImmuneCell-size ! ImmuneCell size
+is_a: http://example.org/test/TCell-morphology ! TCell morphology
+intersection_of: http://example.org/test/size
+intersection_of: inheres:in http://example.org/test/TCell
+
