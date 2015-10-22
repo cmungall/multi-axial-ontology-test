@@ -20,4 +20,8 @@ Two possible approaches:
 1 is probably easiest and most robust to incomplete
 axiomatization. Will need a bit of work on the OWLAPI pipeline though.
 
+## Dumb Lattice
 
+Lattice with dumb repetitive information:
+
+![img](eq-reasoned.png)

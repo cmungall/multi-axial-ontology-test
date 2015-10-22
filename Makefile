@@ -12,4 +12,4 @@ eq-reasoned.owl: eq.owl quality.owl entity.owl
 	owltools $^  --add-imports-from-supports --assert-inferred-subclass-axioms --remove-imports-declarations -o $@
 
 %.obo: %.owl
-	owltools $< -o -f obo $@
+	owltools $<  --remove-dangling -o -f obo $@
