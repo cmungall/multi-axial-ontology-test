@@ -1,6 +1,14 @@
 A sample multi-axial ontology. Source includes recipe for creating a
 lattice (EQ) from two (tree) ontologies E and Q.
 
+```
+Each node in EQ has two direct parents, one from E inference, one from
+Q inference (both trivial). Any node in EQ has N paths parents where
+the parents are the cross-product of {i in LinearPath(E)} x {j in
+LinearPath(Q)}. The number of paths of a node in EQ is |Ancestors(E)|
+x |Ancestors(Q)|
+```
+
 The primary purpose of this repo is to explore visualization of
 lattices by deconstructing the lattice back into trees, or something
 approaching trees.
