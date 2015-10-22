@@ -25,3 +25,9 @@ axiomatization. Will need a bit of work on the OWLAPI pipeline though.
 Lattice with dumb repetitive information:
 
 ![img](eq-reasoned.png)
+
+## Notes
+
+This repo currently only has a single example, a cross-product of two trees
+
+I may later rearrange into subdirs of increasing complexity
