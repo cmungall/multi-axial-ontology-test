@@ -1,6 +1,6 @@
 Prefix: : <http://example.org/test/>
 
-Ontology: <http://example.org/test>
+Ontology: <http://example.org/test/quality.owl>
 
 ## Simplification of PATO
 

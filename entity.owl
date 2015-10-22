@@ -1,6 +1,6 @@
 Prefix: : <http://example.org/test/>
 
-Ontology: <http://example.org/test/entity>
+Ontology: <http://example.org/test/entity.owl>
 
 Class: Anatomical_entity
 Class: Organ
