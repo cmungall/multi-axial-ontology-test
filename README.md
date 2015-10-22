@@ -26,7 +26,8 @@ Two possible approaches:
  2. Make browser reasoner-aware
 
 1 is probably easiest and most robust to incomplete
-axiomatization. Will need a bit of work on the OWLAPI pipeline though.
+axiomatization. See the Makefile for how this is done using owltools.
+See also issue https://github.com/cmungall/multi-axial-ontology-test/issues/1
 
 ## Dumb Lattice
 
