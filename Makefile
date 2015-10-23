@@ -24,6 +24,9 @@ eq-reasoned.owl: eq.owl quality.owl entity.owl
 eq-annotated.owl: eq-with-imports.owl
 	owltools --use-catalog $< --annotate-with-reasoner -o $@
 
+eq-annotated-only.owl: eq-with-imports.owl
+	owltools --use-catalog $< --annotate-with-reasoner -c http://example.org/test/anns -o $@
+
 %-nd.obo: %.owl
 	owltools $<  --remove-dangling -o -f obo $@
 
